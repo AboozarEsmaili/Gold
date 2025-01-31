@@ -1,5 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
-.sora-font-r {
-    font-family: "Sora", serif;
-    font-optical-sizing: auto;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+.zain-font {
+  font-family: "Zain", serif;
+}
+
+.lalezar-font {
+  font-family: "Lalezar", serif;
+}
