@@ -8,20 +8,51 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body class="m-auto w-sm h-screen bg-gray-400 sora-font-r">
+<body class="m-auto w-sm h-screen bg-gray-400 zain-font">
     <div class="flex flex-col bg-[#EDEDED] w-full h-full">
         <div class="flex flex-col justify-center w-full h-[180px] bg-gradient-to-r from-[#313131] to-[#111111]">
-            <div class="relative search-fillter pL-4 pr-4">
-                <input
-                    class="block w-full h-[52px] rounded-xl appearance-none bg-gradient-to-r from-[#111111] to-[#313131] py-4 pr-4 pl-4 sora-font-r text-white placeholder:text-slate-600 focus:outline-hidden"
+            <div class="flex w-full items-center justify-evenly search-fillter pL-4 pr-4">
+                <div class="relative">
+                    <input
+                    class="block w-[260] h-[48px] rounded-xl appearance-none bg-gradient-to-r from-[#222222] to-[#212121] text-xs pr-4 pl-4 pb-1 sora-font-r text-white placeholder:text-[#EDEDED] focus:outline-hidden"
                     placeholder="جست و جوی نوشیدنی ..." type="text">
-                <svg class="absolute left-8 top-4 size-6 fill-[#C67C4E]"
-                    xmlns="http://www.w3.org/2000/svg">
+                <svg class="absolute left-4 top-3 size-6 fill-[#C67C4E]" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M20.47 21.53a.75.75 0 1 0 1.06-1.06l-1.06 1.06Zm-9.97-4.28a6.75 6.75 0 0 1-6.75-6.75h-1.5a8.25 8.25 0 0 0 8.25 8.25v-1.5ZM3.75 10.5a6.75 6.75 0 0 1 6.75-6.75v-1.5a8.25 8.25 0 0 0-8.25 8.25h1.5Zm6.75-6.75a6.75 6.75 0 0 1 6.75 6.75h1.5a8.25 8.25 0 0 0-8.25-8.25v1.5Zm11.03 16.72-5.196-5.197-1.061 1.06 5.197 5.197 1.06-1.06Zm-4.28-9.97c0 1.864-.755 3.55-1.977 4.773l1.06 1.06A8.226 8.226 0 0 0 18.75 10.5h-1.5Zm-1.977 4.773A6.727 6.727 0 0 1 10.5 17.25v1.5a8.226 8.226 0 0 0 5.834-2.416l-1.061-1.061Z">
                     </path>
                 </svg>
+                </div>
+                <div>
+                    <a href="menu.html" type="submit"
+                    class="flex size-[48px] justify-center items-center rounded-2xl bg-[#C67C4E] px-3 py-1.5 mt-8 mb-8 text-lg font-semibold text-white shadow-xs hover:bg-[#EDD6C8] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#EDD6C8] transition delay-100 duration-150 ease-in-out hover:-translate-y-1 hover:scale-105 cursor-pointer">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.40006 15.494H3.14923C2.80423 15.494 2.52423 15.214 2.52423 14.869C2.52423 14.524 2.80423 14.244 3.14923 14.244H8.40006C8.74506 14.244 9.02506 14.524 9.02506 14.869C9.02506 15.214 8.74506 15.494 8.40006 15.494Z"
+                            fill="white" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M15.9924 7.41699H10.7424C10.3974 7.41699 10.1174 7.13699 10.1174 6.79199C10.1174 6.44699 10.3974 6.16699 10.7424 6.16699H15.9924C16.3374 6.16699 16.6174 6.44699 16.6174 6.79199C16.6174 7.13699 16.3374 7.41699 15.9924 7.41699Z"
+                            fill="white" />
+                        <mask id="mask0_421_1389" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="2" y="4"
+                            width="6" height="6">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 4.16699H7.68817V9.32666H2.5V4.16699Z"
+                                fill="white" />
+                        </mask>
+                        <g mask="url(#mask0_421_1389)">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M5.09398 5.41666C4.35315 5.41666 3.74982 6.01332 3.74982 6.74749C3.74982 7.48082 4.35315 8.07666 5.09398 8.07666C5.83565 8.07666 6.43815 7.48082 6.43815 6.74749C6.43815 6.01332 5.83565 5.41666 5.09398 5.41666ZM5.09398 9.32666C3.66398 9.32666 2.49982 8.16999 2.49982 6.74749C2.49982 5.32499 3.66398 4.16666 5.09398 4.16666C6.52482 4.16666 7.68815 5.32499 7.68815 6.74749C7.68815 8.16999 6.52482 9.32666 5.09398 9.32666Z"
+                                fill="white" />
+                        </g>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M14.4898 13.5067C13.7481 13.5067 13.1448 14.1033 13.1448 14.8367C13.1448 15.5708 13.7481 16.1667 14.4898 16.1667C15.2306 16.1667 15.8331 15.5708 15.8331 14.8367C15.8331 14.1033 15.2306 13.5067 14.4898 13.5067ZM14.4898 17.4167C13.0589 17.4167 11.8948 16.2592 11.8948 14.8367C11.8948 13.4142 13.0589 12.2567 14.4898 12.2567C15.9198 12.2567 17.0831 13.4142 17.0831 14.8367C17.0831 16.2592 15.9198 17.4167 14.4898 17.4167Z"
+                            fill="white" />
+                    </svg>
+                </a>
+                </div>
             </div>
+        </div>
+        <div class="w-[80%] mx-auto my-0 mt-[-10%] h-[140px] p-8 rounded-2xl bg-[url(css/img/banner-1.jpg)]">
+                <p class="px-2 py-1 bg-red-500 text-white inline rounded-md text-xs">تخفیفافی</p>
+                <h2 class="px-3 py-2 pt-0 text-2xl text-white bg-[#00000030] rounded-2xl backdrop-blur-sm mt-2">یکی بخر دوتا ببر، دوتا بخر 5 تا ببر</h2>
         </div>
     </div>
 </body>

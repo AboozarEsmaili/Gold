@@ -6,3 +6,7 @@
 .lalezar-font {
   font-family: "Lalezar", serif;
 }
+
+input::placeholder{
+  font-family: "Zain", serif;
+}
